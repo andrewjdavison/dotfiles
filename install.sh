@@ -42,5 +42,5 @@ echo "Installing tern_for_vim"
 
 cd ~/.vim/bundle/tern_for_vim && `which npm` install 
 echo "Installing YouCompleteMe"
-cd ~/.vim/bundle/YouCompleteMe && ./install.sh
+cd ~/.vim/bundle/YouCompleteMe && ./install.py
 
