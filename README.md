@@ -10,12 +10,20 @@ I used these to kick start
    Install handled by install script
  * [antigen](https://github.com/zsh-users/antigen)
    Install handled by install script
- * [tmux](http://tmux.sourceforge.net/)
+ * [tmux](http://tmux.sourceforge.net/
+   preinstall for latest build:
+      sudo apt-get install libevent-dev
+      sudo apt-get install libncurses-dev
+      
    can be installed: `brew install tmux`
  * [tmuxinator](https://github.com/aziz/tmuxinator)
    `gem install tmuxinator`
 
 ## Install
+
+   * Make sure libevent-dev is installed
+   * MAke sure ncurses is installes
+   
 
  * clone the repo so the contents end up in `~/dotfiles`
  * run the install script: `cd dotfiles && chmod +x install.sh && ./install.sh`
