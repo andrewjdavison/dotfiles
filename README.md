@@ -21,10 +21,6 @@ I used these to kick start
 
 ## Install
 
-   * Make sure libevent-dev is installed
-   * MAke sure ncurses is installes
-   
-
  * clone the repo so the contents end up in `~/dotfiles`
  * run the install script: `cd dotfiles && chmod +x install.sh && ./install.sh`
 
